@@ -19,8 +19,6 @@ function mode(array) {
   return [modeArray.pop()]
 }
 
-// Extension: solve this in 0(n) time
-
 function modeTests() {
   console.log(mode([1,2,2,1,1,3, 7, 3]), ' -> 1');
   console.log(mode([1]), '1');
